@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+
+  &-logo {
+    font-size: 1.5rem;
+  }
+
+  &-items {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin-left: 2.5rem;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

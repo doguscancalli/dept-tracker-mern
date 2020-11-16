@@ -1,0 +1,18 @@
+.stats-display {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .stats-wrapper {
+    margin-top: 1.25rem;
+    height: 100%;
+    display: grid;
+    place-items: center;
+
+    canvas {
+      width: 100% !important;
+    }
+  }
+}

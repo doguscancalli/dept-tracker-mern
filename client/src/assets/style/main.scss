@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+// ----------------------------------------
+// Global
+// ----------------------------------------
+@import "./global/normalize";
+@import "./global/variables";
+@import "./global/resets";
+
+// ----------------------------------------
+// Components
+// ----------------------------------------
+@import "./components/container";
+@import "./components/navbar";
+@import "./components/custom-button";
+@import "./components/balance-banner";
+@import "./components/stats-display";
+@import "./components/card";
+@import "./components/create-new";
+@import "./components/custom-input";
+@import "./components/records";
+@import "./components/record";
+@import "./components/app-footer";
+
+// ----------------------------------------
+// Pages
+// ----------------------------------------
+@import "./pages/home";

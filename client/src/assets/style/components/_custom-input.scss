@@ -1,0 +1,13 @@
+.custom-input {
+  width: 100%;
+  background: $background;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid $background;
+  outline: none;
+  transition: all 0.3s ease;
+
+  &:focus,
+  &:active {
+    border: 1px solid $background-l2;
+  }
+}

@@ -1,0 +1,84 @@
+.balance-banner {
+  display: flex;
+  background: $primary;
+  color: white;
+  margin-top: 3.75rem;
+
+  &-content {
+    width: 60%;
+    padding: 3.75rem 6.25rem;
+
+    .welcome-text {
+      font-weight: normal;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    .balance-display {
+      p {
+        opacity: 0.6;
+        margin-top: 2.5rem;
+      }
+
+      h1 {
+        font-size: 3.75rem;
+
+        span {
+          font-size: 1.875rem;
+          opacity: 0.6;
+          margin-right: -0.625rem;
+        }
+      }
+    }
+  }
+
+  &-illustration {
+    width: 40%;
+    position: relative;
+
+    img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    margin-top: 0;
+
+    &-content {
+      width: 100%;
+      padding: 50px;
+    }
+
+    &-illustration {
+      display: none;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    &-content {
+      padding: 30px;
+
+      .welcome-text {
+        font-size: 1.5rem;
+      }
+
+      .balance-display {
+        p {
+          margin-top: 1.875rem;
+        }
+
+        h1 {
+          font-size: 50px;
+
+          span {
+            font-size: 1.5625rem;
+          }
+        }
+      }
+    }
+  }
+}

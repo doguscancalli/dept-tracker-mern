@@ -1,0 +1,16 @@
+.app-footer {
+  text-align: center;
+  margin-top: 6.25rem;
+  padding: 0.9375rem 0;
+  font-size: 0.875rem;
+
+  a {
+    margin-left: 0.625rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 3.125rem;
+  }
+}

@@ -1,0 +1,57 @@
+.record {
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.625rem;
+    transition: all 0.3s ease;
+
+    &.second {
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    &.show {
+      height: auto;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &-group {
+    .header {
+      font-size: 0.875rem;
+      opacity: 0.6;
+    }
+
+    .value {
+      margin-top: 0.625rem;
+    }
+  }
+
+  &-expand {
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  &-cta-group {
+    display: flex;
+
+    .record-delete {
+      margin-right: 1.25rem;
+      cursor: pointer;
+    }
+
+    .record-complete {
+      cursor: pointer;
+    }
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+}

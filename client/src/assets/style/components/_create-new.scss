@@ -1,0 +1,39 @@
+.create-new {
+  .card-title {
+    display: flex;
+    justify-content: space-between;
+
+    .options {
+      .option {
+        opacity: 0.6;
+
+        &-active {
+          opacity: 1;
+        }
+      }
+
+      .exchance {
+        width: 20px;
+        height: 20px;
+        margin: 0 0.625rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .form {
+    .form-group {
+      margin-bottom: 1.25rem;
+
+      label {
+        display: block;
+        margin-bottom: 0.625rem;
+        font-weight: bold;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
