@@ -28,9 +28,7 @@ const BalanceBanner = () => {
   return (
     <div className="balance-banner">
       <div className="balance-banner-content">
-        <h1 className="welcome-text">
-          Welcome back, <span>Lily</span>
-        </h1>
+        <h1 className="welcome-text">Welcome back!</h1>
         <div className="balance-display">
           <p>Total balance</p>
           <h1>

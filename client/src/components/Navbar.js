@@ -1,9 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-// Components
-import CustomButton from "./CustomButton";
-
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -13,10 +10,13 @@ const Navbar = () => {
 
       <ul className="navbar-items">
         <li>
-          <NavLink to="/">Sign in</NavLink>
-        </li>
-        <li>
-          <CustomButton to="/">Sign up</CustomButton>
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
         </li>
       </ul>
     </nav>
