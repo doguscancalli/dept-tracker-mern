@@ -11,7 +11,7 @@ const Navbar = () => {
       <ul className="navbar-items">
         <li>
           <a
-            href="https://github.com/"
+            href="https://github.com/DQampire/dept-tracker-mern"
             target="_blank"
             rel="noopener noreferrer"
           >
