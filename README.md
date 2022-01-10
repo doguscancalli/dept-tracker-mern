@@ -3,6 +3,7 @@
 A simple dept tracking application made with MERN stack.
 
 ![](https://raw.githubusercontent.com/DQampire/dept-tracker-mern/main/screenshot.png)
+#### [Live Website](https://dogus-dept-tracker.netlify.app/)
 
 ## Quickstart
 
